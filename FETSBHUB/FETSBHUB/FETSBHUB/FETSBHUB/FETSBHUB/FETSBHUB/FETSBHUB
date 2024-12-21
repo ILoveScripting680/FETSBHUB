@@ -1,0 +1,549 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/Q69rcHsK"))()
+local Window = Library.CreateLib("FE TSB HUB", "BloodTheme")
+
+local Tab = Window:NewTab("Stuff")
+
+local Section = Tab:NewSection("Effects")
+
+Section:NewButton("Black Flash", "Activates a massive black flash effect", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/kMZJF27h"))()
+end)
+
+Section:NewButton("Black Flash", "Activates a massive black flash effect", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/kMZJF27h"))()
+end)
+
+Section:NewButton("Black Flash AURA", "Can't be disabled, just rejoin", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/4jVHNua4"))()
+end)
+
+local Tab = Window:NewTab("Ultimates")
+
+local Section = Tab:NewSection("Ultimates")
+
+Section:NewButton("The Strongest Hero", "SERIOUS MODE", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://12447707844"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+Section:NewButton("Hero Hunter", "RAMPAGE", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://12342141464"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+Section:NewButton("Destructive Cyborg", "MAXIMUM ENERGY OUTPUT", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://12772543293"
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+
+end)
+
+Section:NewButton("Deadly Ninja", "SPEED OF SOUND", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://13499771836"
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+wait(2.3)
+game.Players.LocalPlayer.Character.Head.Transparency = 1
+game.Players.LocalPlayer.Character.Torso.Transparency = 1
+game.Players.LocalPlayer.Character["Left Arm"].Transparency = 1
+game.Players.LocalPlayer.Character["Right Arm"].Transparency = 1
+game.Players.LocalPlayer.Character["Left Leg"].Transparency = 1
+game.Players.LocalPlayer.Character["Right Leg"].Transparency = 1
+game.Players.LocalPlayer.Character.Head.face.Transparency = 1
+wait(2)
+game.Players.LocalPlayer.Character.Head.Transparency = 0
+game.Players.LocalPlayer.Character.Torso.Transparency = 0
+game.Players.LocalPlayer.Character["Left Arm"].Transparency = 0
+game.Players.LocalPlayer.Character["Right Arm"].Transparency = 0
+game.Players.LocalPlayer.Character["Left Leg"].Transparency = 0
+game.Players.LocalPlayer.Character["Right Leg"].Transparency = 0
+game.Players.LocalPlayer.Character.Head.face.Transparency = 0
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://13497875049"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+end)
+Section:NewButton("Brutal Demon", "PUMPED UP", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://14733282425"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+Section:NewButton("Blade Master", "SCORCHING BLADE", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://15391323441"
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+
+end)
+Section:NewButton("Wild Psychic", "BERSERK", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://16734584478"
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+
+end)
+Section:NewButton("KJ", "20 SERIES", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/QSQysq1J"))()
+end)
+
+local Tab = Window:NewTab("Spawn Animation")
+
+local Section = Tab:NewSection("Spawn Animations")
+
+Section:NewButton("The Strongest Hero", "Spawn Animation", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://15957366251"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+Section:NewButton("Hero Hunter", "Spawn Animation", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://15957376722"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+Section:NewButton("Destructive Cyborg", "Spawn Animation", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://15957374019"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+Section:NewButton("Deadly Ninja", "Spawn Animation", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://15957361339"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+Section:NewButton("Brutal Demon", "Spawn Animation", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://15957371124"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+Section:NewButton("Blade Master", "Spawn Animation", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://15983615423"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+Section:NewButton("Martial Artists", "Spawn Animation", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://18435303746"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+
+Section:NewButton("KJ", "Spawn Animation", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+ 
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://17325160621"
+ 
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+
+local Tab = Window:NewTab("KJ Stuff")
+
+local Section = Tab:NewSection("KJ")
+
+Section:NewButton("Ravage", "Ravage From KJ", function() loadstring(game:HttpGet("https://pastebin.com/raw/pQBSdrBG"))()
+end)
+
+Section:NewButton("Swift Sweep", "Swift Sweep from kj", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/mpNj8beT"))()
+end)
+
+Section:NewButton("Collateral Ruin", "Collateral Ruin From KJ", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/2JQ7K5hk"))()
+end)
+
+Section:NewLabel("Ult Moves")
+
+Section:NewButton("Stoic Bomb", "Stoic bomb From KJ", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/BQAA19Wh"))()
+end)
+
+Section:NewButton("20-20-20 dropkick", "20-20-20 Dropkick from KJ", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/h7fh9c98"))()
+end)
+
+Section:NewButton("Five Seasons", "Five Seasons From KJ (buggy)", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/xEa2fMZx"))()
+end)
+
+local Tab = Window:NewTab("Another Hubs")
+
+local Section = Tab:NewSection("Anothers Hubs i found💀")
+
+Section:NewButton("Aquarius hub", "Heavy Gui💀", function()
+--[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+loadstring(game:HttpGet("https://rentry.org/aquarius-hub/raw"))()
+end)
+
+local Tab = Window:NewTab("Gojo Stuff")
+
+local Section = Tab:NewSection("Gojo Stuff")
+
+Section:NewButton("Beatdown", "you got beated down by gojo💀", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://13560306510"
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+playAnim:AdjustSpeed(2)
+wait(0.15)
+playAnim:AdjustSpeed(1.5)
+wait(2.2)
+playAnim:AdjustSpeed(1)
+end)
+
+Section:NewButton("Red", "Activates a massive red shot", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/6a8L7hR0"))()
+end)
+
+Section:NewButton("Hollow Purple", "Activates a massive giant purple ball", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/knAJ0Lbm"))()
+end)
+
+Section:NewButton("Blue", "Activates a massive blue hole💀", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/PDQV3Dhg"))()
+end)
+
+local Tab = Window:NewTab("Custom Characters")
+
+local Section = Tab:NewSection("Characters")
+
+Section:NewLabel("These characters cannot be removed or disabled, rejoin.")
+
+Section:NewButton("Skibidi Toilet", "SKIBIDI GOD", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/tUDRcKB8"))()
+end)
+
+Section:NewButton("KJ", "20 SERIES", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/ivnuieqY"))()
+end)
+
+Section:NewButton("A-Train", "I CANT STOP", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/jE8YSAeQ"))()
+end)
+
+Section:NewButton("Mixed Moveset", "Gives Mixed Moveset", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/Y3uyGSK6"))()
+end)
+
+Section:NewButton("Speed of light moveset", "Gives Speed Of Light moveset", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/VVwyh1dF"))()
+end)
+
+Section:NewButton("combat god moveset(ban)", "gives combat god moveset", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/rhYScJ1c"))()
+end)
+
+local Tab = Window:NewTab("Emotes")
+
+local Section = Tab:NewSection("Emotes")
+
+Section:NewButton("Applause", " ", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://14056379526"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+Section:NewButton("Kneel", " ", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://13721154327"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+Section:NewButton("L", " ", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://18231574269"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+Section:NewButton("Bully", " ", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://14014580605"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+Section:NewButton("Sleepy", " ", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://14348083862"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+Section:NewButton("Bring it", " ", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://13801083337"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+Section:NewButton("Tornado", " ", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://18459285150"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+
+local Tab = Window:NewTab("Dummy Stuff")
+
+local Section = Tab:NewSection("Dummy")
+
+Section:NewToggle("Toggle view dummy", "Toggle to view the dummy.", function(state)
+    if state then
+        game.Workspace.Camera.CameraSubject = game.Workspace.Live:FindFirstChild("Weakest Dummy").Humanoid
+    else
+        game.Workspace.Camera.CameraSubject = game.Players.LocalPlayer.Character.Humanoid
+    end
+end)
+
+Section:NewButton("Dummy KJ", "Dummy Does Kj Awk", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/QfHCKkG6"))()
+end)
+
+Section:NewButton("Dummy Counter Player", "Dummy", function()
+    local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://18440406788"
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+end)
+
+Section:NewButton("Dummy Victim (kills)", "Dummy", function()
+    local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://18440398084"
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+wait(8)
+humanoid.Health = 0
+end)
+
+Section:NewButton("Dummy 2 person", "Dummy", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/FEmhXs2N"))()
+end)
+
+local Tab = Window:NewTab("Info")
+
+local Section = Tab:NewSection("Credit")
+
+Section:NewLabel("youtube: The Editer Man + Scripter")
+
+Section:NewLabel("Roblox: MyBatteryIsGetit")
+
+-- Create a ScreenGui
+local ScreenGui = Instance.new("ScreenGui")
+ScreenGui.Parent = game.CoreGui
+
+-- Create a Frame to act as the button
+local Button = Instance.new("TextButton")
+Button.Parent = ScreenGui
+Button.Size = UDim2.new(0, 150, 0, 50) -- Width: 150px, Height: 50px
+Button.Position = UDim2.new(0, 0, 0.5, -25) -- Middle-left, 25px offset upwards
+Button.Text = "FE TSB HUB"
+Button.BackgroundColor3 = Color3.new(0.2, 0.2, 0.2) -- Dark gray
+Button.TextColor3 = Color3.new(1, 1, 1) -- White text
+Button.Font = Enum.Font.SourceSansBold
+Button.TextSize = 18
+
+-- Add functionality to the button
+Button.MouseButton1Click:Connect(function()
+Library:ToggleUI()
+end)
